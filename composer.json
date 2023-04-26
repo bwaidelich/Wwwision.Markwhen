@@ -1,0 +1,23 @@
+{
+    "description": "Projection that can render the state of the Event Sourced Content Repository into markwhen.com syntax",
+    "type": "neos-package",
+    "name": "wwwision/markwhen",
+    "require": {
+        "neos/flow": "*",
+        "neos/contentrepository-core": "*",
+        "neos/contentrepositoryregistry": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwwision\\Markwhen\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Wwwision.Markwhen"
+        }
+    }
+}

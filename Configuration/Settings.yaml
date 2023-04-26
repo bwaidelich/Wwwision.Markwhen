@@ -1,0 +1,9 @@
+Neos:
+  ContentRepositoryRegistry:
+    contentRepositories:
+      # Register the "Markwhen" projection on the "default" content repository
+      # copy the following lines, if you want to register it for other CRs or presets
+      'default':
+        projections:
+          'Wwwision.Markwhen:Markwhen':
+            factoryObjectName: Wwwision\Markwhen\MarkwhenProjectionFactory
