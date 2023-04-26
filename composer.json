@@ -2,6 +2,7 @@
     "description": "Projection that can render the state of the Event Sourced Content Repository into markwhen.com syntax",
     "type": "neos-package",
     "name": "wwwision/markwhen",
+    "license": "MIT",
     "require": {
         "neos/flow": "*",
         "neos/contentrepository-core": "*",
@@ -19,5 +20,15 @@
         "neos": {
             "package-key": "Wwwision.Markwhen"
         }
-    }
+    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/bwaidelich"
+        },
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.me/bwaidelich"
+        }
+    ]
 }
