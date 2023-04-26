@@ -23,7 +23,7 @@ composer require wwwision/markwhen
 > https://github.com/neos/neos-development-collection/tree/9.0/Neos.ContentRepositoryRegistry
 > https://github.com/neos/neos-development-collection/tree/9.0/Neos.ContentGraph.DoctrineDbalAdapter
 > https://github.com/neos/neos-development-collection/tree/9.0/Neos.ContentGraph.PostgreSQLAdapter
-> and install everything via `composer require wwwision/neos-dam:@dev neos/contentrepositoryregistry:@dev neos/contentgraph-doctrinedbaladapter:@dev neos/contentgraph-postgresqladapter:@dev`
+> and install everything via `composer require wwwision/markwhen neos/contentrepositoryregistry:@dev neos/contentgraph-doctrinedbaladapter:@dev neos/contentgraph-postgresqladapter:@dev`
 
 Afterwards you can replay the projection to built up its initial state:
 
